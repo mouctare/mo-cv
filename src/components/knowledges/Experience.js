@@ -21,7 +21,7 @@ const Experience = () => {
           Mon stage portait sur le Big-Data notamment le scraping.
           Au cours du stage , la mission qui m'a été confié était de faire du Web scraping avec les API de, Youtube, Facebbok, twitter et  instagram afin de récupérer les statistiques de certaines marques touristiques comme:
           Disneyland Paris, Futuroscope, Puy du Fou, Nigloland pour ne citer que celles-ci. Le but était de récupérer le nombre de vues, likes, dislikes, partages, commentaires etc. Afin d'évaluer le dynamisme de ces différentes marques touristiques sur les réseaux sociaux et ainsi avoir une aide à la décision afin d'être plus présent sur ces différentes plateformes numériques.
-           Ce stage m'a permis de mieux comprendre la notion d'API, la  structure, la complexité et comment l'exploiter.
+           Ce stage m'a permis de mieux comprendre le fontionnement d'une API.
         </p>
       </div>
     </div>
