@@ -7,7 +7,7 @@ const Hobies = () => {
       <ul>
         <li className="hobby">
           <i className="fas fa-running"></i>
-          <span>Course à pied</span>
+          <span>Running</span>
         </li>
         <li className="hobby">
         <i className="fas fa-laptop"></i>
@@ -15,8 +15,8 @@ const Hobies = () => {
         </li>
        
         <li className="hobby">
-          <i className="fas fa-book-reader"></i>
-          <span>Lecture</span>
+        <i className="fas fa-biking"></i>
+          <span>VTT</span>
         </li>
       </ul>
     </div>
