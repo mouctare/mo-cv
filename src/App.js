@@ -6,6 +6,8 @@ import Knowledges from "./pages/Knowledges";
 import NotFound from "./pages/NotFound";
 import Portfolio from "./pages/Portfolio";
 
+
+
 const App = () => {
   return (
     <>
@@ -15,6 +17,7 @@ const App = () => {
           <Route path="/competences" component={Knowledges} />
           <Route path="/portfolio" component={Portfolio} />
           <Route path="/contact" component={Contact} />
+      
           <Route component={NotFound} />
         </Switch>
       </BrowserRouter>

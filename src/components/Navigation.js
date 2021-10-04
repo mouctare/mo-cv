@@ -36,6 +36,12 @@ const Navigation = () => {
               <span>Contact</span>
             </NavLink>
           </li>
+          <li>
+            <NavLink exact to="/video" activeClassName="navActive">
+              <i className="fas fa-address-book"></i>
+              <span>Ma vidéo-de presentation</span>
+            </NavLink>
+          </li>
         </ul>
       </div>
       <div className="socialNetwork">
