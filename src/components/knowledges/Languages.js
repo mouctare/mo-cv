@@ -14,6 +14,7 @@ class Languages extends Component {
       { id: 1, value: "Apiplatform", xp: 1.5 },
       { id: 2, value: "React", xp: 1.4 },
       { id: 3, value: "Bootstap", xp: 1.3 },
+      { id: 4, value: "SpringBoot", xp: 1 },
     ],
   };
   render() {

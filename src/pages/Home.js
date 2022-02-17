@@ -15,7 +15,7 @@ const Home = () => {
            <h2>Télécharger Mon CV !</h2> 
           </a>
         </div>
-         div 
+         
       </div>
     </div>
   );
