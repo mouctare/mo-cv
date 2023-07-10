@@ -11,7 +11,7 @@ const Home = () => {
           <h2>Concepteur Développeur Web </h2>
         
         
-          <a href="./media/Cv_Mouctar.pdf" target="_blank">
+          <a href="./media/MonCv.pdf" target="_blank">
            <h2>Télécharger Mon CV !</h2> 
           </a>
         </div>
