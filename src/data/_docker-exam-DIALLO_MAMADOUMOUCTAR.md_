@@ -1,0 +1,141 @@
+# QCM Docker
+
+- Nom:Diallo
+- Prénom:Mamadou Mouctar
+
+## Instructions
+
+Ce document est un questionnaire à choix multiples. Sauf cas particulier
+mentionné explicitement dans la question, chaque question possède une et
+une seule réponse correcte parmi celles proposées.
+
+Pour indiquer la bonne réponse à une question, remplacer le signe `-`
+devant la réponse par un signe `*`.
+
+Le document de rendu devra avoir le nom : _docker-exam-NOM_PRENOM.md_
+
+Merci de ne pas modifier le type de fichier pour le rendu (fichier texte
+simple, pas de PDF ou de document Word).
+
+Par exemple :
+
+1.  Quelle est la bonne réponse à cette question ?
+    - Une mauvaise réponse
+    * La bonne réponse
+    - Une autre mauvaise réponse
+
+## Sujet du QCM
+
+1.  Quelle est la principale différence entre une machine virtuelle (VM)
+    et un conteneur ?
+    - Un conteneur est une boîte qui contient un logiciel Windows
+      alors qu'une VM fonctionne généralement sous Linux.
+    - Un conteneur permet de faire des applications distribuées dans
+      le cloud contrairement aux machines virtuelles.
+    * Un conteneur partage le noyau du système hôte alors qu'une
+      machine virtuelle virtualise son propre noyau indépendant.
+2.  Plusieurs conteneurs fonctionnant sur une seule machine
+    partagent-ils tous les mêmes ressources CPU et RAM ?
+    - Vrai
+    * Faux
+3.  Quels sont les principaux atouts de Docker ?
+    - Il permet de rendre compatible tous les logiciels avec le cloud
+      (AWS, etc.) et facilite l'IoT.
+    - Il utilise le langage Go qui est de plus en plus populaire et
+      accélère les logiciels qui l'utilise.
+    * Il permet d'uniformiser les déploiements logiciels et facilite
+      la construction d'application distribuées.
+4.  Quelle commande Docker permet de créer et d'exécuter un conteneur ?
+    - docker exec
+    * docker run
+    - docker pull
+    - docker start
+5.  Quelle est la relation entre une image Docker et un conteneur Docker
+    ?
+    - Un conteneur Docker est utilisé pour démarrer une image Docker.
+    * Un conteneur Docker est une instance en cours d'exécution d'une
+      image.
+    - Un conteneur Docker est une collection de couches d'images.
+    - Un conteneur Docker est constitué de deux ou plusieurs images
+      qui partagent un environnement d'exécution commun.
+6.  Qu'est-ce qu'un Dockerfile ?
+    - Une image Docker qui est construite en exécutant une commande
+      Docker.
+    * Un fichier texte qui contient toutes les commandes nécessaires
+      pour construire une image donnée.
+    - Une instance en cours d'exécution d'une image Docker
+    - Un site web où vous pouvez télécharger des images Docker.
+7.  Quelle syntaxe peut-on utiliser pour convertir un fichier Docker
+    (Dockerfile) en image ?
+    - `docker create -t <image_name>:<tag_name>`
+    * `docker build -t <image_name>:<tag_name>`
+    - `docker run -t <image_name>:<tag_name>`
+    - `docker convert -t <image_name>:<tag_name>`
+8.  Quelle commande permet de lister à la fois les conteneurs inactifs
+    et actifs:
+    - docker ps -a
+    * docker ps
+    - docker ps -l
+    - docker ps -d
+9.  Quelle commande envoie une image locale dans un registre (hub)
+    Docker distant ?
+    * docker push
+    - docker build
+    - docker tag
+    - docker run
+10. Quelle instruction Dockerfile spécifie l'image de base à utiliser
+    lors de la création d'une image Docker ?
+    - BASE
+    - CMD
+    - ADD
+    * FROM
+11. Quelle commande permet de réaliser lier le port 80 du conteneur au
+    port 2023 de l'hôte Docker ?
+    * docker run -p 2023:80
+    - docker run -p 80:2023
+    - docker run expose 80:2023
+    - docker run expose 2023:80
+12. Comment afficher la configuration du conteneur ?
+    - docker build
+    - docker inspect
+    - docker version
+    * docker info
+13. A quoi sert la commande docker exec ?
+    - Elle exécute des processus en dehors d'un conteneur.
+    * Elle exécute des processus dans un conteneur existant.
+    - Elle exécute des processus dans un nouveau conteneur.
+    - Elle est similaire à l'installation d'un logiciel.
+14. Commande pour créer un cluster dans Docker ?
+    - MiniKube
+    * docker swarm
+    - K8s
+    - Toutes les réponses sont vraies
+15. Quelle commande est utilisée pour créer un conteneur depuis une
+    image ?
+    - `docker ps -a`
+    * `docker run -it alpine /bin/bash`
+    - `docker run <container_name>`
+    - `Toutes les réponses sont vraies`
+16. Un volume Docker est :
+    * Un espace de stockage connecté à un ou plusieurs conteneurs
+      docker.
+    - Une image fonctionnelle à partir de laquelle on crée des
+      conteneurs identiques.
+    - Un snapshot de l'application que l'on déploie dans un cluster
+      comme Swarm.
+17. En quoi Docker permet-il de faire de l'Infrastructure as Code (IaC)
+    ?
+    - Comme Ansible, Docker se connecte en SSH à un Linux pour décrire
+      des configurations.
+    * Docker permet avec les Dockerfiles et les fichiers Compose de
+      décrire l'installation d'un logiciel et sa configuration.
+
+## Questions ouvertes
+
+18. À quel moment les données stockées dans un conteneur sont-elles
+    supprimées ? lors d ela suppréssion de l'image
+	Comment éviter leur suppression ? lors de la suppression de l'image , 
+	Pour eviter la suppression, on sauvegarde le conteneur dans un volume
+19. Quelle est la ou les commande(s) à utiliser pour supprimer un
+    conteneur en activité ?
+	docker container rm + id du conteneur
