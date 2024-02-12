@@ -6,6 +6,8 @@ class ProjectList extends Component {
   state = {
     projects: portfolioData,
     radios: [
+      { id: 1, value: "Spring boot" },
+      { id: 1, value: "Angular" },
       { id: 1, value: "symfony" },
       { id: 1, value: "react" },
       { id: 1, value: "javascript" },
